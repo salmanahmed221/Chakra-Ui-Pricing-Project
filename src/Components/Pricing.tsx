@@ -8,8 +8,9 @@ import {
   Icon,
   Stack,
   background,
+  StackProps,
 } from "@chakra-ui/react";
-import Checkicon from "@/icons/icon";
+import Checkicon from "@/icons/Icon";
 
 export const ListItem = (props: StackProps) => {
   const { children, ...rest } = props;
