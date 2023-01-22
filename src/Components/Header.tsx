@@ -17,7 +17,7 @@ export default function Header() {
             fontWeight="extrabold"
             fontSize={["3xl", "3xl", "5xl"]}
             lineHeight="130%"
-            textAlign="center"
+            textAlign={["left", "left", "center"]}
             pt="4"
           >
             Simple pricing for your business
@@ -26,7 +26,7 @@ export default function Header() {
             color="white"
             fontWeight="medium"
             fontSize={["lg", "lg", "2xl"]}
-            textAlign="center"
+            textAlign={["left", "left", "center"]}
             lineHeight="32px"
           >
             Plans that are carefully crafted to suit your business.

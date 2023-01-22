@@ -56,7 +56,7 @@ export default function Pricing() {
               </Text>
               <Button
                 background="#805AD5"
-                width="282px"
+                width="230px"
                 height="51px"
                 border-borderRadius="8px"
                 mt="24px"
