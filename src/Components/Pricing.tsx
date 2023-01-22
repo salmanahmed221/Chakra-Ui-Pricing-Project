@@ -2,12 +2,10 @@ import {
   Box,
   Flex,
   Text,
-  Heading,
   Button,
   HStack,
   Icon,
   Stack,
-  background,
   StackProps,
   VStack,
 } from "@chakra-ui/react";
@@ -27,7 +25,7 @@ export default function Pricing() {
   return (
     <div>
       <Box>
-        <Box mx="auto" mt="-156px" overflow="hidden">
+        <Box mx="auto" mt="-175px" overflow="hidden">
           <Flex
             direction={["column", "column", "column", "row"]}
             mx="auto"
@@ -42,14 +40,14 @@ export default function Pricing() {
               backgroundColor="#F0EAFB"
               padding="60px"
             >
-              <VStack mt="20">
+              <VStack mt="15">
                 <Text
                   fontWeight="800"
                   fontSize={["18px", "18px", "20px", "24px"]}
                   line-height="32px"
                 >
                   Premium PRO <br />
-                  390
+                  $390
                 </Text>
 
                 <Text fontWeight="500" fontSize="18px" lineHeight="38px">
